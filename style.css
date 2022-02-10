@@ -11,17 +11,43 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: mediumpurple;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  border-bottom: 5px beige solid;
+}
+
+nav{
+  margin-bottom: 20px;
+  background-color: beige;
 }
 
 nav ul {
   display: flex;
-  justify-content: space-between;
 }
 
 nav ul li {
   list-style-type: none;
   font-weight: bold;
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px grey;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+#topsection {
+  display: flex;
+  flex-direction: column;
 }
 
 #welcome {
