@@ -1,3 +1,5 @@
+/* Body */
+
 body {
   background: url(assets/back.jpg);
   color: white;
@@ -8,6 +10,14 @@ body {
   width: 90%;
   margin: auto;
 }
+
+section h1 {
+  font-size: 40px;
+  text-shadow: 3px 3px grey;
+}
+
+
+/* header of all pages */
 
 header {
   display: flex;
@@ -45,6 +55,9 @@ a:hover {
   color: brown;
 }
 
+
+/* Index page */
+
 #topsection {
   display: flex;
   flex-direction: column;
@@ -67,10 +80,8 @@ a:hover {
   padding: 90px;
 }
 
-section h1 {
-  font-size: 40px;
-  text-shadow: 3px 3px grey;
-}
+
+/* Royal family page  */
 
 #RoyalFamily .king {
   display: flex;
@@ -91,4 +102,29 @@ section h1 {
   font-style: italic;
 }
 
+
+/* Assets page  */
+
+#assets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 700px;
+  margin: auto;
+  background-color: rgb(37, 177, 182);
+}
+
+th, td {
+  border: 2px solid white;
+  color: black;
+}
+
+th {
+   text-transform: uppercase;
+   text-align: center;
+}
 
