@@ -103,7 +103,7 @@ a:hover {
 }
 
 
-/* Assets page  */
+/* Assets page */
 
 #assets {
   display: flex;
@@ -126,5 +126,30 @@ th, td {
 th {
    text-transform: uppercase;
    text-align: center;
+}
+
+/* Contact page */
+
+form {
+  margin: 25px;
+  color: black;
+}
+
+fieldset {
+  background-color: beige;
+  border-color: black;
+}
+#name, #Email {
+  width: 500px;
+}
+
+textarea {
+  width: 500px;
+  height: 250px;
+}
+
+legend {
+  font-size: 30px;
+  color: black;
 }
 
