@@ -67,7 +67,28 @@ a:hover {
   padding: 90px;
 }
 
-#kingdom h1 {
+section h1 {
   font-size: 40px;
   text-shadow: 3px 3px grey;
 }
+
+#RoyalFamily .king {
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+  opacity: 0.7;
+  height: 420px;
+  padding: 50px;
+  color: black;
+  text-align: center;
+}
+
+#RoyalFamily h2 {
+  font-size: 25px;
+}
+
+#RoyalFamily p {
+  font-style: italic;
+}
+
+
