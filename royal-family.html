@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>The Royal Family of Colchis</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <div id="bloc_page">
-    <header>
-      <div id="logo">
-        <img src="assets/logo.png" alt="logo" />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="royal-family.html">Royal Family</a></li>
-          <li><a href="assets.html">Royal Assets</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>The Royal Family of Colchis</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-    <section id="RoyalFamily">
-      <h1>The Royal Family</h1>
+<body>
+  <header>
+    <div id="logo">
+      <img src="assets/logo.png" alt="logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="royal-family.html" class="current">Royal Family</a></li>
+        <li><a href="assets.html">Royal Assets</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="wrapper">
+    <div class="wrapper-content">
+      <section id="RoyalFamily">
+        <h1>The Royal Family</h1>
         <div class="king">
           <div>
-            <img src="assets/aeetes.png" alt="Aeetes" width="200"/>
+            <img src="assets/aeetes.png" alt="Aeetes" width="200" />
             <h2>King Aeetes</h2>
             <p>I'm the king of Colchis!</p>
           </div>
@@ -42,7 +44,10 @@
             <p></p>
           </div>
         </div>
-    </section>
+      </section>
     </div>
-  </body>
+  </div>
+
+</body>
+
 </html>

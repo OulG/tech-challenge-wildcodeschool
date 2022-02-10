@@ -1,33 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>The Royal Kingdom of Colchis</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
-    <div id="bloc_page">
-      <div id="topsection">
-        <header>
-          <div id="logo">
-            <img src="assets/logo.png" alt="logo" />
-          </div>
-          <nav>
-            <ul>
-              <li><a href="index.html">About</a></li>
-              <li><a href="royal-family.html">Royal Family</a></li>
-              <li><a href="assets.html">Royal Assets</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </nav>
-        </header>
-        <div id="welcome">
-          <h1>Welcome to the Kingdom of Colchis</h1>
-        </div>
-      </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>The Royal Kingdom of Colchis</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
+<body>
+  <header>
+    <div id="logo">
+      <img src="assets/logo.png" alt="logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="current">About</a></li>
+        <li><a href="royal-family.html">Royal Family</a></li>
+        <li><a href="assets.html">Royal Assets</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="welcome">
+    <h1>Welcome to the Kingdom of Colchis</h1>
+  </div>
+
+  <div class="wrapper">
+    <div class="wrapper-content">
       <section id="kingdom">
         <h1>About the Kingdom</h1>
         <p>
@@ -50,15 +51,13 @@
           ive siècle.
         </p>
       </section>
-
-      <section id="heroes">
-        
-      </section>
     </div>
+  </div>
+  <!-- <img src="assets/foot.png" alt="foot" /> -->
 
-    <img src="assets/foot.png" alt="foot"/>
+  <!-- Connect the Javascript file -->
+  <script src="script.js"></script>
 
-    <!-- Connect the Javascript file -->
-    <script src="script.js"></script>
-  </body>
+</body>
+
 </html>

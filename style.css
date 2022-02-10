@@ -1,67 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 /* Body */
 
 body {
   background: url(assets/back.jpg);
   color: white;
   text-align: justify;
-}
-
-#bloc_page {
-  width: 90%;
-  margin: auto;
+  margin: 0;
 }
 
 section h1 {
+  font-family: 'Oswald', sans-serif;
   font-size: 40px;
-  text-shadow: 3px 3px grey;
+  margin: 0 0 30px 0;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.34);
 }
 
 
 /* header of all pages */
 
 header {
+  height: 75px;
   display: flex;
-  justify-content: space-around;
-  background-color: mediumpurple;
-  padding-top: 10px;
-  padding-bottom: 3px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #9370d8;
   border-bottom: 5px beige solid;
 }
 
+#logo {
+ height: 60px;
+}
+
+#logo img {
+  height: 100%;
+}
+
 nav{
-  margin-bottom: 20px;
-  background-color: beige;
 }
 
 nav ul {
   display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
   list-style-type: none;
   font-weight: bold;
-  margin: 15px;
+  margin: 0;
 }
 
-a {
-  text-decoration: none;
-  font-size: 30px;
-  color: white;
-  text-shadow: 2px 2px grey;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: brown;
-}
-
-
-/* Index page */
-
-#topsection {
+nav ul li a {
   display: flex;
-  flex-direction: column;
+  height: 75px;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.16);
+  padding: 0 18px;
 }
+
+nav ul li a.current, nav ul li a:hover {
+  text-decoration: none; 
+  background-color: #7456b1;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #d3b38d;
+}
+
+.wrapper .wrapper-content {
+  padding: 25px 30px;
+}
+/* Index page */
 
 #welcome {
   height: 427px;
@@ -73,11 +90,17 @@ a:hover {
 }
 
 #welcome h1 {
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
   font-size: 80px;
   color: white;
-  text-shadow: 3px 3px grey;
-  text-align: center;
-  padding: 90px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.34);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 40px;
 }
 
 
@@ -92,6 +115,14 @@ a:hover {
   padding: 50px;
   color: black;
   text-align: center;
+}
+#RoyalFamily .king div {
+  flex: 1;
+}
+
+.king img {
+ height: 200px;
+ width: auto;
 }
 
 #RoyalFamily h2 {
@@ -128,6 +159,9 @@ th {
    text-align: center;
 }
 
+thead th {
+  height: 50px;
+}
 /* Contact page */
 
 form {

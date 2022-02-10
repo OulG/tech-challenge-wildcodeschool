@@ -1,2 +1,3 @@
 # tech-challenge-wildcodeschool
-Created with CodeSandbox
+
+This is my tech challenge
