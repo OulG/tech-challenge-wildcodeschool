@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* Body */
 
@@ -14,6 +15,10 @@ section h1 {
   font-size: 40px;
   margin: 0 0 30px 0;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.34);
+}
+
+p, th, td, legend {
+  font-family: 'Playfair Display', serif;
 }
 
 
@@ -35,9 +40,6 @@ header {
 
 #logo img {
   height: 100%;
-}
-
-nav{
 }
 
 nav ul {
@@ -111,7 +113,7 @@ nav ul li a.current, nav ul li a:hover {
   justify-content: space-between;
   background-color: beige;
   opacity: 0.7;
-  height: 420px;
+  height: 300px;
   padding: 50px;
   color: black;
   text-align: center;
@@ -162,6 +164,7 @@ th {
 thead th {
   height: 50px;
 }
+
 /* Contact page */
 
 form {
@@ -171,7 +174,7 @@ form {
 
 fieldset {
   background-color: beige;
-  border-color: black;
+  border: 2px #7456b1 double;
 }
 #name, #Email {
   width: 500px;
@@ -184,6 +187,12 @@ textarea {
 
 legend {
   font-size: 30px;
-  color: black;
+  color: #7456b1;
+  text-shadow: 3px 3px rgba(67, 7, 165, 0.34);
+  font-weight: bold;
+}
+
+p label {
+  margin: 0 0 25 0;
 }
 
