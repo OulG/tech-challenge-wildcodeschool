@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* Body */
@@ -19,6 +19,33 @@ section h1 {
 
 p, th, td, legend {
   font-family: 'Playfair Display', serif;
+}
+
+#kingdom p {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #7456b1;
+}
+
+footer .img {
+  background: url(assets/foot.png);
+  height: 51px;
+  width: 100%;
+  background-size: 330px;
+  background-position: center;
+}
+
+footer img {
+  height: 300px;
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
 }
 
 
